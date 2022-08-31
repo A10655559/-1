@@ -63,7 +63,7 @@ def get_weather(region):
     # 风向
     wind_dir = response["now"]["windDir"]
     #
-    return weather, temp, wind_dir
+    return weather, temp, feelsLike, wind_dir
 
  
  
